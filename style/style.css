@@ -1,0 +1,72 @@
+body {
+    background-color: #fe581c;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+    padding: 50px;
+}
+
+h1 {
+    color: #800080;
+    font-size: 40px;
+    margin: 25px;
+}
+
+h3 {
+    color: #800080;
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    color: #800080;
+    font-size: 30px;
+    /* margin: 25px; */
+}
+
+.container {
+    max-width: 600px;
+    text-align: center;
+}
+
+.btn-purple {
+    /* background-color: #800080;
+    border-color: #800080; */
+    background: linear-gradient(45deg, #800080, #4B0082);
+    border: none;
+    color: #fff;
+    /* padding: 15px 20px; */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    cursor: pointer;
+}
+
+.btn-purple:hover {
+    background-color: #5a005a;
+    border-color: #5a005a;
+}
+
+.btn-Whatsapp {
+    background-image: url('C:/Users/Mikhael/Desktop/Site/whatsapp.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-left: 20px;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+     margin-top: 20px;
+    color: #800080;
+}
+
+.rounded-circle-img {
+    width: 150px; /* Ajuste o tamanho desejado */
+    height: 150px; /* Ajuste o tamanho desejado */
+    object-fit: cover;
+    border-radius: 50%; /* Cria um círculo perfeito */
+}
+
